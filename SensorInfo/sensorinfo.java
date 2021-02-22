@@ -1,3 +1,5 @@
+package com.amlin.sensorinfo;
+
 import android.content.Context;
 import android.util.Log;
 import com.google.appinventor.components.annotations.*;
@@ -74,7 +76,7 @@ public class SensorInformation extends AndroidNonvisibleComponent {
 
       return sensorData;
    }
-  //To return this data, i am now parsing
+  //To decode this data using dictionary, here,i am using json util.
    @SimpleFunction(
       description = "You can use this block to decode the sensor json to text . Use dictionary , getValueForKey block to decode the json"
    )
